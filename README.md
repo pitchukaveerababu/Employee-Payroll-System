@@ -34,3 +34,95 @@ Employee-Payroll-System/
 ├── Employee_Payroll_System/
 │   ├── attendance.py
 │   ├── database.py
+│   ├── employee.py
+│   ├── main.py
+│   ├── payroll.py
+│   ├── payslip.py
+│   ├── pdf_payslip.py
+│   ├── validation.py
+│   └── README.md
+│
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/pitchukaveerababu/Employee-Payroll-System.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Employee-Payroll-System
+```
+
+### 3. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### 4. Activate the virtual environment
+
+Windows:
+
+```powershell
+.venv\Scripts\activate
+```
+
+### 5. Install dependencies
+
+```bash
+pip install mysql-connector-python
+```
+
+Install any additional libraries required by your project.
+
+### 6. Configure MySQL
+
+- Install and start MySQL Server.
+- Create a database named `employee_payroll`.
+- Create the required employee and attendance tables.
+- Configure your MySQL username and password.
+
+### 7. Run the application
+
+```bash
+cd Employee_Payroll_System
+python main.py
+```
+
+Enter your MySQL password when prompted.
+
+## 🗄️ Database
+
+MySQL is used to store and manage:
+
+- Employee details
+- Attendance records
+- Salary information
+- Payroll data
+
+## 🎯 Learning Outcomes
+
+- Python application development.
+- MySQL database connectivity.
+- CRUD operations.
+- SQL queries and database transactions.
+- Payroll calculation logic.
+- Input validation and exception handling.
+- PDF generation.
+
+## 👨‍💻 Author
+
+**Pitchuka Veerababu**
+
+GitHub: https://github.com/pitchukaveerababu
+
+---
+
+Developed as a Python and MySQL project to demonstrate practical software development and database management skills.
